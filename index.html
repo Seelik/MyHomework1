@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <article id="home">
+        <br>
+      <div align = "center">  <img src="png/epamlogo.png" alt="empty" width="170px"></div>
     <h1>HTML elements</h1><hr> </article>
     <title>homework1</title>
 </head>
 <body>
+   
     <table>
         <tr>
-            <td><a href="#home">Home</a></td>
-            <td><a href="#headers">Headers</a></td>
-            <td><a href="#table">Table</a></td>
-            <td><a href="#list">List</a></td>
-            <td><a href="#textFormat">Text format</a></td>
-            <td><a href="#blockquotes">Blockquotes</a></td>
+            <td width = "56px" align="left"><a href="#home"><b>Home</b></a></td>
+            <td width = "73px" align="left"><a href="#headers"><b>Headers</b></a></td>
+            <td width = "53px" align="left"><a href="#table"><b>Table</b></a></td>
+            <td width = "40px" align="left"><a href="#list"><b>List</b></a></td>
+            <td width = "93px" align="left"><a href="#textFormat"><b>Text format</b></a></td>
+            <td width = "100px" align="left"><a href="#blockquotes"><b>Blockquotes</b></a></td>
         </tr>    
 </table>
+   
     <hr>
-    
-
+    <p>Pay attantion to h1 tag inside section element. Front-size for h1 is the same as fron-size for h2, because we have to use only one h1 on the page, 
+        and it is commonly used inside header </p>
         <article id="headers">
 
-       <h2>Header 2</h2>
-       <h3>Header 3</h3>
-       <h4>Header 4</h4>
-       <h5>Header 5</h5>
-       <h6>Header 6</h6>
+       <p><font size="5">Header 2</font></p>
+       <p><font size="4">Header 3</font></p>
+       <p><font size="3">Header 4</font></p>
+       <p><font size="2">Header 5</font></p>
+       <p><font size="1">Header 6</font></p>
     
         <hr>
 
@@ -41,32 +45,32 @@
     <br>
         <p><abbr title="">HTML</abbr> and <abbr title="">CSS</abbr> are our tools. Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Corporis, obcaecati provident? Blanditiis, earum consectetur temporibus quasi error suscipit, voluptatibus eos assumenda est.
-             to copy a file type COPY <i>filename</i>. <s>Dinner's at 5:00</s>. <mark>lets make that 7</mark>. This <s>text</s> has been strukt.</p>
+             to copy a file type COPY <i>filename</i>. <s>Dinner's at 5:00</s>. <mark style="background-color: rgb(251, 243, 169);">lets make that 7</mark>. This <s>text</s> has been strukt.</p>
              <hr>
     
     <h2>Table</h2> 
     <article id="table">
     
-    <table width = "100%" border="1" cellspacing="0">
+    <table width = "97%"   cellpadding="10px" border="1" cellspacing="0px" bordercolor="lightgrey" align="center">
         <tr align="left">
-            <th>Header</th>
-            <th>Header</th>
-            <th>Header</th>
+            <th><font color="grey">&nbsp Header</font></th>
+            <th><font color="grey">&nbsp Header</font></th>
+            <th><font color="grey">&nbsp Header</font></th>
         </tr>
         <tr>
-            <td>Lviv</td>
-            <td>Kyiv</td>
-            <td>Kharkiv</td>
+            <td >&nbsp Lviv</td>
+            <td>&nbsp Kyiv</td>
+            <td>&nbsp  Kharkiv</td>
         </tr>
         <tr>
-            <td>Odessa</td>
-            <td>Zhytomyr</td>
-            <td>Dnipropetrovsk</td>
+            <td>&nbsp Odessa</td>
+            <td>&nbsp Zhytomyr</td>
+            <td>&nbsp Dnipropetrovsk</td>
         </tr>
         <tr>
-            <td>Sumy</td>
-            <td>Chernivtsi</td>
-            <td>Lutsk</td>
+            <td>&nbsp Sumy</td>
+            <td>&nbsp Chernivtsi</td>
+            <td>&nbsp Lutsk</td>
         </tr>
     </table>
     </article>
@@ -109,16 +113,21 @@
 <hr>
 
 <article id="textFormat">
-<h2 >Text format</h2>
-<p style=margin-left:20px>Article text</p>
-<h3 style=margin-left:20px>Article title</h3>
-<sub>Article diskription</sub>
+    <article>
+<p ><font size="5">Text format</font></p>
+<p>Article text</p>
+<section>
+<p><font size="5"> &nbsp Article title</font></p>
+<sub> &nbsp &nbsp Article diskription</sub>
+</section>
+    </article>   
 
 <h3>Preformated text</h3>
-<table style="background-color:lightgrey;" width="100%">
+<table  width="100%">
     <tr>
-        <td>
-<pre>
+        <td bgcolor="lightgrey">
+<pre >
+
     Text
         in a <b>pre</b> elements
             is displayedin a fixed-width 
@@ -133,8 +142,11 @@
 </table>
 
 <h3>Code</h3>
-<table style="background-color: lightgrey;" width="100%"><tr><td>
+<table  width="100%" ><tr><td bgcolor="lightgrey">
 <code><pre>
+
+
+    
     .wraper {
         display: flex;
         vertical-allign: midle;
@@ -154,33 +166,56 @@
 <h2>Blockquotes</h2>
 <p>Lets keep it simple. Italicsare good to help set it off from then body text. be shure to style the citation.</p>
 <blockquote>
+    <i>
     <q>If u do back a few handred years, what we take for granted today would seem like magic-being able to talk to 
        peole over long distances, to transmit images, flying, accesing vast amounts of data like an oracle, these are all
        things that would have been considered magic a few handred years ago. </q>
        <br>
        <a href="https://pl.wikipedia.org/wiki/Elon_Musk">Elon Mask</a> 
-   
+    </i>
 </blockquote>
 <hr>
 
+
 <form align="right">
+    <table cellpadding="0px" cellspacing="12px" align="right" >
+        <tr><td>
     <label for="name">First name</label>
-    <input type="text">
+    <input color="red" type="text" disabled>
     <br>
+</td>
+    </tr>
 
+    <tr>
+        <td>
     <label for="surname">Surname</label>
-    <input type="text">
+    <input type="text" disabled>
     <br>
-
+</td>
+    </tr>
+    
+    <tr>
+        <td>
     <label for="email">Email</label>
-    <input type="text">
+    <input type="text" disabled>
     <br>
+</td>
+    </tr>
 
-    <textarea name="text" cols="26" rows="13"></textarea>
+    <tr>
+        <td>
+    <textarea name="text" cols="26" rows="13" disabled></textarea>
     <br>
-
+</td>
+    </tr>
+<tr>
+    <td>
     <input type="submit" value="Submit">
+</td>
+</tr>
+</table>
 </form>
+
 
 <table style="background-color: lightgrey;" width="99%" height="100px;" align="center">
     <tr align="center">
